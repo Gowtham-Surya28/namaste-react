@@ -1,4 +1,5 @@
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement(
     "div", 
@@ -9,7 +10,7 @@ const parent = React.createElement(
         [React.createElement(
             "h1", 
             {},
-            "I'm an h1 tag"
+            "This is Namaste React"
         ), React.createElement(
             "h2", 
             {},
@@ -33,7 +34,7 @@ const parent = React.createElement(
 
 
 
-console.log(parent);
+console.log(parent); // object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
